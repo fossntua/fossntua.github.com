@@ -1,16 +1,44 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
 
+#news .rssHeader a {
+    display:none;
+}
 
+#news .rssBody ul {
+    margin:0px;
+    padding:0px;
+}
 
+#news .rssBody ul li{
+    list-style:none;
+}
 
+#news .rssBody ul li h4{
+    margin-bottom:3px;
+}
 
+#news .rssBody ul li div{
+    font-size:15px;
+    font-weight:bold;
+}
 
+#news .rssBody ul li h4 a {
+    color: rgb(17, 119, 170);
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration:none;
+}
+#news .rssBody ul li h4 a:hover {
+    color: red;
+}
+
+#news {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left:10px;
+}   
 
 
 
