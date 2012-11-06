@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <fossntua> -- <Open Source> -- <https://foss.ntua.gr/status>
 
 # THANKS
 
-    <name>
+    <twitter bootstrap>
+    <html5 boilerplate>
 
 # TECHNOLOGY COLOPHON
 
