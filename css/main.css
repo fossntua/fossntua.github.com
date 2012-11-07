@@ -2,7 +2,6 @@
    Author's custom styles
    ========================================================================== */
 
-
 #news .rssHeader a {
     display:none;
 }
@@ -26,13 +25,9 @@
 }
 
 #news .rssBody ul li h4 a {
-    /*color: rgb(17, 119, 170);*/
     font-family: 'Ubuntu', sans-serif;
     text-decoration:none;
 }
-/*#news .rssBody ul li h4 a:hover {
-    color: red;
-}*/
 
 #news {
     font-family: 'Ubuntu', sans-serif;
@@ -54,10 +49,3 @@ a {
     transition-duration: 0.5s;
 
 }
-
-
-
-
-
-
-
