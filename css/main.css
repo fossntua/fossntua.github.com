@@ -74,3 +74,14 @@ a {
     transition-duration: 0.5s;
 
 }
+
+/* disable glyphicons to use awesome fonts: TODO
+
+[class^="icon-"], [class*=" icon-"] {
+     background-image:none;
+     height:auto;
+     line-height:normal;
+     margin-top:0;
+     vertical-align:baseline;
+     width:auto;
+}*/
