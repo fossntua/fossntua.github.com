@@ -2,34 +2,59 @@
    Author's custom styles
    ========================================================================== */
 
-#news .rssHeader a {
-    display:none;
-}
-
-#news .rssBody ul {
+#wikinews .rssBody ul {
     margin:0px;
     padding:0px;
 }
 
-#news .rssBody ul li{
+#wikinews .rssBody ul li{
     list-style:none;
 }
 
-#news .rssBody ul li h4{
+#wikinews .rssBody ul li h4{
     margin-bottom:3px;
 }
 
-#news .rssBody ul li div{
+#wikinews .rssBody ul li div{
     font-size:15px;
     font-weight:bold;
 }
 
-#news .rssBody ul li h4 a {
+#wikinews .rssBody ul li h4 a {
     font-family: 'Ubuntu', sans-serif;
     text-decoration:none;
 }
 
-#news {
+#wikinews {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left:10px;
+}   
+
+
+#forumnews .rssBody ul {
+    margin:0px;
+    padding:0px;
+}
+
+#forumnews .rssBody ul li{
+    list-style:none;
+}
+
+#forumnews .rssBody ul li h4{
+    margin-bottom:3px;
+}
+
+#forumnews .rssBody ul li div{
+    font-size:15px;
+    font-weight:bold;
+}
+
+#forumnews .rssBody ul li h4 a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration:none;
+}
+
+#forumnews {
     font-family: 'Ubuntu', sans-serif;
     padding-left:10px;
 }   
