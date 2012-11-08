@@ -55,7 +55,7 @@
 
             <div class="row">
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="well span8">
+            <div class="well span7">
 
                 <h1>Κοινότητα Ελεύθερου Λογισμικού ΕΜΠ</h1>
 
@@ -104,16 +104,10 @@
 
             <!-- Example row of columns -->
             <div class="row">
-                <div class="well span5" id="news">
-
-                </div>
-                <div class="well span5">
-                    <h3>Something clever</h3>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
+                <div class="well span5" id="wikinews"></div>
+                <div class="well span5" id='forumnews'></div>
             </div>
-
+            
             <hr>
 
             <footer>
@@ -138,13 +132,17 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
-            $('#news').rssfeed('http://foss.ntua.gr/wiki/index.php?title=%CE%91%CF%81%CF%87%CE%B9%CE%BA%CE%AE_%CF%83%CE%B5%CE%BB%CE%AF%CE%B4%CE%B1&action=feed&feed=rss',{
-                limit:2});
+            $('#wikinews').rssfeed('http://foss.ntua.gr/wiki/index.php?title=%CE%91%CF%81%CF%87%CE%B9%CE%BA%CE%AE_%CF%83%CE%B5%CE%BB%CE%AF%CE%B4%CE%B1&action=feed&feed=rss',{
+limit:5});
             });
         </script>
-    
+        <script type="text/javascript">
+            $(document).ready(function () {
+            $('#forumnews').rssfeed('http://foss.ntua.gr/forum/index.php?action=.xml;type=rss',{
+                limit:5});
+            });
+        </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
     </body>
 </html>
