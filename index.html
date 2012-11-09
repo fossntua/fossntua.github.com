@@ -76,8 +76,8 @@
 
             <!-- Example row of columns -->
         <div class="row">
-            <div class="well span5" id="wikinews"></div>
-            <div class="well span5" id='forumnews'></div>
+            <div class="well span6" id="wikinews"></div>
+            <div class="well span4" id='forumnews'></div>
         </div>
             
         <hr>
@@ -111,7 +111,7 @@ limit:5, header:false });
         <script type="text/javascript">
             $(document).ready(function () {
             $('#forumnews').rssfeed('http://foss.ntua.gr/forum/index.php?action=.xml;type=rss',{
-limit:5, header:false});
+limit:3, header:false});
             });
         </script>
         <script src="js/plugins.js"></script>

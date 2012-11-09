@@ -16,7 +16,7 @@
 }
 
 #wikinews .rssBody ul li div{
-    font-size:15px;
+    font-size:13px;
     font-weight:bold;
 }
 
@@ -29,8 +29,6 @@
     font-family: 'Ubuntu', sans-serif;
     padding-left:10px;
 }   
-
-
 #forumnews .rssBody ul {
     margin:0px;
     padding:0px;
@@ -45,13 +43,14 @@
 }
 
 #forumnews .rssBody ul li div{
-    font-size:15px;
+    font-size:13px;
     font-weight:bold;
 }
 
 #forumnews .rssBody ul li h4 a {
     font-family: 'Ubuntu', sans-serif;
     text-decoration:none;
+    font-size:15px;
 }
 
 #forumnews {
