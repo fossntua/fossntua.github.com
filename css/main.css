@@ -61,6 +61,7 @@
 a:hover {
     color: rgb(4, 177, 216);
     text-decoration:none;
+    text-shadow: 0px 0px 0.3px;
 }
 a {
     color: rgb(3, 136, 166);
@@ -70,7 +71,7 @@ a {
     -moz-text-decoration-line: none;
     -moz-text-decoration-style: solid;
     transition-property: color;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 
 }
 
